@@ -1,6 +1,6 @@
 # Offset
 
-A plain-English guide to tax-loss harvesting, direct indexing and long-short (130/30) strategies, with a calculator that shows what each could be worth to you after taxes and fees.
+A guide to tax-loss harvesting, direct indexing and long-short (130/30) strategies, with a calculator that shows what each could be worth to you after taxes and fees.
 
 **Live site:** https://jolasonowo.github.io/offset/
 
@@ -12,7 +12,7 @@ It simulates hundreds of possible markets week by week and compares three ways t
 - direct indexing, which sells individual stocks that fall and buys a similar sector fund;
 - a 130/30 long-short strategy, which harvests losses on both its long and short positions.
 
-Under the hood:
+How it works:
 
 - stocks move with the market, their sector and on their own, with occasional large shocks;
 - the wash-sale rule is enforced: no buying back the same security within 30 days of a loss sale;
